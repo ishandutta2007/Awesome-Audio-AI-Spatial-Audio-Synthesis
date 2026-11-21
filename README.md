@@ -2,234 +2,90 @@
 
 ## Top Audio AI & Spatial Audio Synthesis Ecosystem
 
-
-
 **Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
-
 *Focused on AI Audio Synthesis, Spatial Audio Rendering, Speech Enhancement, Neural Sound Generation & Audio Workstations*  
-
 **Last updated: November 2026**
-
-
 
 This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Audio AI & Spatial Audio Synthesis**. These tools generate, synthesize, spatialize, denoise, master, and edit speech, soundscapes, music, and 3D binaural audio using neural audio codecs, diffusion/flow-matching synthesizers, Ambisonics/HRTF acoustic engines, and modular digital audio workstations.
 
-
-
-**Examples** include Descript, Dolby.io, Auphonic, Krisp, Cleanvoice AI, Adobe Podcast, LANDR, AudioNodes, Soundop, WavePad, and LUC4N3X/Levyra-deepsound (the category leaders and notable community entries). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for neural audio/music/SFX synthesis (`Stable Audio Open`, `AudioCraft / MusicGen & AudioGen`, `Riffusion`), physics-based spatial audio & Ambisonics (`Steam Audio`, `IEM Plug-in Suite`, `Resonance Audio`), speech enhancement (`DeepFilterNet`, `Resemble Enhance`), and open-source audio players/DAWs — ideal for audio engineers, game/XR sound designers, podcasters, ML researchers, and open-source builders.
-
-
-
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Audio AI market is estimated at ~$34.2 billion (projected to reach $117.5B by 2033 at a ~19.3% CAGR), while the 3D/Spatial Audio market is valued at ~$7–8 billion (projected to reach $27B–$38B by the early 2030s at a ~15–22% CAGR). The sector is moderately fragmented across hardware ecosystems, competing spatial rendering formats (Dolby Atmos, Apple Spatial Audio, Sony 360 Reality Audio), and specialized neural synthesis startups, though big tech and audio IP leaders anchor core platform standards.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Descript (Studio Sound & Overdub)](https://descript.com)**  
-
-  AI-powered audio and video production suite combining text-based transcript editing, neural voice synthesis, and one-click Studio Sound voice isolation.
-
-
-
-- **[Dolby.io](https://dolby.io)**  
-
-  Cloud media and communications API platform providing spatial audio synthesis, AI speech enhancement, dynamic leveling, and multi-channel mastering.
-
-
-
-- **[Auphonic](https://auphonic.com)**  
-
-  Automated AI audio post-production service and API delivering adaptive leveling, noise/reverb reduction, and broadcast loudness normalization (LUFS).
-
-
-
-- **[Krisp](https://krisp.ai)**  
-
-  Real-time AI noise cancellation, voice isolation, and acoustic echo cancellation desktop app and on-device SDK for VoIP, streaming, and voice agents.
-
-
-
-- **[Cleanvoice AI](https://cleanvoice.ai)**  
-
-  Cloud-based AI podcast post-production tool engineered to detect and remove filler words, mouth sounds, breath noises, and dead air across multiple languages.
-
-
-
-- **[Adobe Podcast (Enhance Speech)](https://adobe.com)**  
-
-  Browser-based AI voice restoration and audio synthesis tool transforming noisy, echo-heavy recordings into studio-quality vocal tracks.
-
-
-
-- **[LANDR](https://landr.com)**  
-
-  Cloud-based AI audio mastering, stem separation, and music production platform offering automated EQ, compression, and stereo enhancement.
-
-
-
-- **[AudioNodes](https://audionodes.com)**  
-
-  Browser-based and desktop modular synthesizer and digital audio workstation (DAW) featuring visual node-based sound synthesis, multi-track sequencing, and real-time DSP effects.
-
-
-
-- **[Soundop](https://soundop.com)**  
-
-  Windows audio editor and multitrack workstation combining spectral editing, batch processing, VST/VST3 plugin hosting, and precision mastering tools.
-
-
-
-- **[WavePad (NCH Software)](https://nch.com.au)**  
-
-  Cross-platform audio and music editing software offering spectral analysis, noise reduction, batch processing, and DirectX/VST effect chains.
-
-
-
-
+| Product | Company Size (Valuation / Revenue) | Starting Paid Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Adobe Podcast (Enhance Speech)](https://podcast.adobe.com/)** | Market Cap: ~$85B–$88B (FY Revenue: ~$25.9B) | $9.99 / month (Adobe Express / Firefly bundle) | Free plan: Max 30 min duration (or 500 MB) per file, up to 1 hour daily enhancement limit | Browser-based AI voice restoration and audio synthesis tool transforming noisy, echo-heavy recordings into studio-quality vocal tracks. |
+| **[Dolby.io](https://dolby.io)** | Market Cap: ~$5.1B–$6.0B (Annual Revenue: ~$1.42B) | Usage-based: Media Enhance from $0.05/min; Communications from $0.0025–$0.0045/participant-min | Free plan: $25 monthly recurring credit on pay-as-you-go ($50 initial signup credit) + 50 GB free monthly real-time streaming bandwidth | Cloud media and communications API platform providing spatial audio synthesis, AI speech enhancement, dynamic leveling, and multi-channel mastering. |
+| **[Descript (Studio Sound & Overdub)](https://descript.com)** | Valuation: ~$550M (ARR: ~$50M–$55M; $101M raised) | $16 / editor / month (billed annually) or $24 / month (Hobbyist) | Free plan: 1 hour (60 min) transcription/editing per month, 100 one-time AI credits, 720p watermarked export, 5 GB storage | AI-powered audio and video production suite combining text-based transcript editing, neural voice synthesis, and one-click Studio Sound voice isolation. |
+| **[LANDR](https://landr.com)** | Valuation: ~$100M–$250M (Revenue: ~$10M–$50M; $35M+ raised) | $8.25 / month (billed annually, Studio Essentials) or $10 / single WAV master | Free account / 3-day trial: Free account allows unlimited AI-mastered previews and release setup (downloads and distribution require paid plan) | Cloud-based AI audio mastering, stem separation, and music production platform offering automated EQ, compression, and stereo enhancement. |
+| **[Krisp](https://krisp.ai)** | Revenue: ~$37M–$41M ARR (Series A funded: ~$16M raised) | $8 / user / month (billed annually) or $16 / user / month | 7-day free trial: Unrestricted access to unlimited AI noise cancellation, meeting transcription, and AI notes (reverts to paid after 7 days) | Real-time AI noise cancellation, voice isolation, and acoustic echo cancellation desktop app and on-device SDK for VoIP, streaming, and voice agents. |
+| **[WavePad (NCH Software)](https://www.nch.com.au/wavepad/)** | Parent Revenue: ~$7M–$10M (Bootstrapped / Private) | $39.95 one-time license (Standard) or $69.95 (Master's Edition) | Permanently free edition: Free for non-commercial personal use with core editing tools; includes initial 14-day trial of Master's Edition features | Cross-platform audio and music editing software offering spectral analysis, noise reduction, batch processing, and DirectX/VST effect chains. |
+| **[Cleanvoice AI](https://cleanvoice.ai)** | Revenue: ~$500K–$1M ARR (Bootstrapped / Private) | €10 / month ($11/mo for 10 hours) or $11 one-time credit pack (5 hours) | Free trial: 30 minutes of free audio processing (no credit card required) | Cloud-based AI podcast post-production tool engineered to detect and remove filler words, mouth sounds, breath noises, and dead air across multiple languages. |
+| **[Auphonic](https://auphonic.com)** | Revenue: ~$750K–$1M ARR (Bootstrapped / Private) | €9 / month (recurring 9 hours/mo) or €12 one-time credit pack (5 hours) | Free plan: 2 hours of processed audio per month (includes Auphonic audio outro/jingle) | Automated AI audio post-production service and API delivering adaptive leveling, noise/reverb reduction, and broadcast loudness normalization (LUFS). |
+| **[AudioNodes](https://audionodes.com)** | Private / Independent Startup | $9.99 / month or $99.99 / year (AudioNodes HD) | Free plan: Unlimited nodes and timeline tracks, stereo audio rendering up to 48 kHz, commercial use allowed (HD adds 96 kHz 7.1 audio) | Browser-based and desktop modular synthesizer and digital audio workstation (DAW) featuring visual node-based sound synthesis, multi-track sequencing, and real-time DSP effects. |
+| **[Soundop](https://soundop.com)** | Private / Independent (Ivosight) | $35.90 / year subscription or $99 perpetual lifetime license | 7-day fully functional free trial; transitions into indefinite Demo Mode with restricted audio save/export capabilities | Windows audio editor and multitrack workstation combining spectral editing, batch processing, VST/VST3 plugin hosting, and precision mastering tools. |
 
 ## Open-Source GitHub Projects
 
+The following table lists leading open-source projects for neural audio synthesis, 3D spatial rendering, speech enhancement, and audio DSP, sorted descending by GitHub star count:
 
-
-- **[AudioCraft (Meta MusicGen & AudioGen)](https://github.com)**  
-
-  Flagship open-source PyTorch library for deep learning audio synthesis, featuring `MusicGen` for text-to-music generation, `AudioGen` for environmental SFX synthesis, and `EnCodec` neural audio compression.
-
-
-
-- **[Stable Audio Open (`stable-audio-tools`)](https://github.com)**  
-
-  Open-source generative audio framework from Stability AI for training and running diffusion-transformer models that synthesize 44.1 kHz stereo sound effects, foley, and ambient audio from text prompts.
-
-
-
-- **[Steam Audio (`ValveSoftware/steam-audio`)](https://github.com)**  
-
-  Open-source physics-based spatial audio synthesis SDK providing HRTF binaural rendering, acoustic occlusion, geometry-based raytraced reflections, and Ambisonics for games and XR.
-
-
-
-- **[IEM Plug-in Suite](https://github.com)**  
-
-  Comprehensive open-source suite of spatial audio and Higher-Order Ambisonics (HOA) VST/LV2 plugins for 3D sound field synthesis, binaural decoding, and room simulation.
-
-
-
-- **[Resonance Audio (Google)](https://github.com)**  
-
-  Cross-platform open-source spatial audio SDK synthesizing realistic 3D sound propagation and room acoustics at scale for mobile, desktop, and VR applications.
-
-
-
-- **[DeepFilterNet](https://github.com)**  
-
-  Low-complexity, real-time open-source deep learning framework for full-band (48 kHz) speech enhancement and background noise suppression with Rust/Python and PipeWire/LADSPA support.
-
-
-
-- **[Resemble Enhance](https://github.com)**  
-
-  Open-source AI speech denoising and audio super-resolution toolkit that removes background noise and synthesizes crisp high-frequency vocal harmonics up to 44.1 kHz.
-
-
-
-- **[Demucs (Meta Research)](https://github.com)**  
-
-  State-of-the-art open-source hybrid Transformer/waveform source separation engine for isolating vocals, drums, bass, and instrumental stems from mixed audio.
-
-
-
-- **[Audacity](https://github.com)**  
-
-  Cross-platform open-source multi-track audio editor and recorder supporting OpenVINO AI noise suppression, music generation/separation plugins, spectral editing, and VST3 effects.
-
-
-
-- **[LUC4N3X/Levyra-deepsound](https://github.com/LUC4N3X/Levyra-deepsound)**  
-
-  Open-source GPLv3 cross-platform audio player for Android and Windows featuring 10-band EQ, AutoEQ headphone profiles, pitch/speed DSP controls, ReplayGain, and local/streamed library unification with zero telemetry.
-
-
-
-- **[matchering](https://github.com)**  
-
-  Open-source Python library and web application for automated reference-based audio mastering, matching RMS, frequency response, peak amplitude, and stereo width.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Riffusion / Riffusion Hobby](https://github.com)** for real-time diffusion-based audio and music synthesis via spectrogram generation.
-
-- **[SOFA / libmysofa](https://github.com)** for open-source Head-Related Transfer Function (HRTF) dataset loading and personalized binaural spatial audio rendering.
-
-- **[Pedalboard (Spotify)](https://github.com)** for high-performance Python audio processing supporting VST3/Audio Unit plugins, studio effects, and streaming I/O.
-
-- **[RNNoise](https://github.com)** for lightweight C-based recurrent neural network noise suppression integrated across WebRTC, OBS Studio, and VoIP pipelines.
-
-- **[SuperCollider](https://github.com)** and **[Pure Data (Pd)](https://github.com)** for open-source real-time algorithmic audio synthesis, spatial multichannel routing, and procedural sound design.
-
-
-
-**Frameworks for building custom systems**: Combine **Stable Audio Open** or **AudioCraft** for generative sound/music synthesis, **Steam Audio** or **IEM Plug-in Suite** for 3D spatial rendering, and **DeepFilterNet + Pedalboard** for automated AI speech cleanup and mastering.
-
-
+| Project | Stars | Focus & Category | Description |
+| :--- | :--- | :--- | :--- |
+| **[ChatTTS](https://github.com/2noise/ChatTTS)** | [![GitHub stars](https://img.shields.io/github/stars/2noise/ChatTTS?style=social&color=white)](https://github.com/2noise/ChatTTS/stargazers) | Neural Speech Synthesis | Generative conversational text-to-speech engine optimized for dialogue scenarios, conversational nuances, laughter, and multi-speaker synthesis. |
+| **[Bark](https://github.com/suno-ai/bark)** | [![GitHub stars](https://img.shields.io/github/stars/suno-ai/bark?style=social&color=white)](https://github.com/suno-ai/bark/stargazers) | Generative Audio & Voice | Transformer-based text-to-audio model by Suno capable of synthesizing highly realistic multilingual speech, background noise, music, and ambient sound effects. |
+| **[Retrieval-based Voice Conversion (RVC)](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)** | [![GitHub stars](https://img.shields.io/github/stars/RVC-Project/Retrieval-based-Voice-Conversion-WebUI?style=social&color=white)](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/stargazers) | Voice Conversion & Synthesis | Easy-to-use voice conversion framework based on VITS and HuBERT, featuring low latency and pitch extraction algorithms for singing and voice cloning. |
+| **[AudioCraft](https://github.com/facebookresearch/audiocraft)** | [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/audiocraft?style=social&color=white)](https://github.com/facebookresearch/audiocraft/stargazers) | Generative Music & SFX | Flagship PyTorch library from Meta for deep learning audio generation, featuring `MusicGen` for text-to-music, `AudioGen` for environmental SFX, and `EnCodec` neural compression. |
+| **[Audacity](https://github.com/audacity/audacity)** | [![GitHub stars](https://img.shields.io/github/stars/audacity/audacity?style=social&color=white)](https://github.com/audacity/audacity/stargazers) | Audio Editor & DAW | World-renowned cross-platform multi-track audio workstation featuring OpenVINO AI noise suppression, deep-learning stem separation plugins, and VST3 effect chains. |
+| **[Sherpa-ONNX](https://github.com/k2-fsa/sherpa-onnx)** | [![GitHub stars](https://img.shields.io/github/stars/k2-fsa/sherpa-onnx?style=social&color=white)](https://github.com/k2-fsa/sherpa-onnx/stargazers) | Speech Enhancement & STT/TTS | Offline speech-to-text, text-to-speech, speaker diarization, source separation, and speech enhancement powered by Next-gen Kaldi and ONNX Runtime without internet. |
+| **[F5-TTS](https://github.com/SWivid/F5-TTS)** | [![GitHub stars](https://img.shields.io/github/stars/SWivid/F5-TTS?style=social&color=white)](https://github.com/SWivid/F5-TTS/stargazers) | Flow-Matching Speech Synthesis | Non-autoregressive speech synthesis system based on Flow Matching with ConvNeXt-V2 diffusion backbone, supporting zero-shot voice cloning and fast inference. |
+| **[Tortoise-TTS](https://github.com/neonbjb/tortoise-tts)** | [![GitHub stars](https://img.shields.io/github/stars/neonbjb/tortoise-tts?style=social&color=white)](https://github.com/neonbjb/tortoise-tts/stargazers) | High-Fidelity Voice Synthesis | Multi-voice expressive text-to-speech system combining autoregressive decoders and diffusion vocoders for realistic voice cloning and prosody. |
+| **[Seamless Communication](https://github.com/facebookresearch/seamless_communication)** | [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/seamless_communication?style=social&color=white)](https://github.com/facebookresearch/seamless_communication/stargazers) | Speech-to-Speech Translation | Meta AI framework powering foundational speech generation, multilingual expressive translation, streaming synthesis, and acoustic watermarking. |
+| **[AudioKit](https://github.com/AudioKit/AudioKit)** | [![GitHub stars](https://img.shields.io/github/stars/AudioKit/AudioKit?style=social&color=white)](https://github.com/AudioKit/AudioKit/stargazers) | Audio Synthesis Platform | Comprehensive Swift/C++ audio synthesis, signal processing, spatialization, and sequencing platform for iOS, macOS, and visionOS applications. |
+| **[Demucs](https://github.com/facebookresearch/demucs)** | [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/demucs?style=social&color=white)](https://github.com/facebookresearch/demucs/stargazers) | Stem Separation | SOTA deep learning hybrid Transformer/waveform source separation architecture isolating vocals, drums, bass, and instrumental stems from mixed stereo audio. |
+| **[VoiceCraft](https://github.com/jasonppy/VoiceCraft)** | [![GitHub stars](https://img.shields.io/github/stars/jasonppy/VoiceCraft?style=social&color=white)](https://github.com/jasonppy/VoiceCraft/stargazers) | Zero-Shot Speech Editing | Token-based neural codec speech synthesis model achieving state-of-the-art performance in zero-shot speech editing and conversational speech generation. |
+| **[SuperCollider](https://github.com/supercollider/supercollider)** | [![GitHub stars](https://img.shields.io/github/stars/supercollider/supercollider?style=social&color=white)](https://github.com/supercollider/supercollider/stargazers) | Algorithmic Synthesis & DSP | Real-time audio synthesis server and algorithmic composition programming language featuring multichannel routing, Ambisonics, and procedural sound design. |
+| **[Pedalboard](https://github.com/spotify/pedalboard)** | [![GitHub stars](https://img.shields.io/github/stars/spotify/pedalboard?style=social&color=white)](https://github.com/spotify/pedalboard/stargazers) | Audio DSP & Python Framework | High-performance Python framework from Spotify for applying guitar effects, VST3/AU plugin hosting, dynamic processing, and batch spatial/filtering pipelines. |
+| **[RNNoise](https://github.com/xiph/rnnoise)** | [![GitHub stars](https://img.shields.io/github/stars/xiph/rnnoise?style=social&color=white)](https://github.com/xiph/rnnoise/stargazers) | Neural Noise Suppression | Recurrent neural network noise suppression engine written in C by Xiph.Org, widely integrated across WebRTC, OBS Studio, and low-latency VoIP pipelines. |
+| **[DeepFilterNet](https://github.com/Rikorose/DeepFilterNet)** | [![GitHub stars](https://img.shields.io/github/stars/Rikorose/DeepFilterNet?style=social&color=white)](https://github.com/Rikorose/DeepFilterNet/stargazers) | Neural Speech Enhancement | Low-complexity, real-time deep learning framework for full-band (48 kHz) speech enhancement and noise suppression with Rust, Python, and LADSPA support. |
+| **[Stable Audio Open (`stable-audio-tools`)](https://github.com/Stability-AI/stable-audio-tools)** | [![GitHub stars](https://img.shields.io/github/stars/Stability-AI/stable-audio-tools?style=social&color=white)](https://github.com/Stability-AI/stable-audio-tools/stargazers) | Diffusion Audio Synthesis | Generative audio framework from Stability AI for training and deploying diffusion-transformer models that synthesize 44.1 kHz stereo audio and SFX from text. |
+| **[Riffusion Hobby](https://github.com/riffusion/riffusion-hobby)** | [![GitHub stars](https://img.shields.io/github/stars/riffusion/riffusion-hobby?style=social&color=white)](https://github.com/riffusion/riffusion-hobby/stargazers) | Spectrogram Diffusion Synthesis | Real-time diffusion-based music and sound synthesis converting text prompts into spectrogram images and synthesizing audio via inverse STFT. |
+| **[Steam Audio](https://github.com/ValveSoftware/steam-audio)** | [![GitHub stars](https://img.shields.io/github/stars/ValveSoftware/steam-audio?style=social&color=white)](https://github.com/ValveSoftware/steam-audio/stargazers) | Physics-Based Spatial Audio | Valve's spatial audio SDK providing HRTF binaural rendering, acoustic occlusion, geometry-based raytraced reflections, and Ambisonics for games and XR. |
+| **[Matchering](https://github.com/sergree/matchering)** | [![GitHub stars](https://img.shields.io/github/stars/sergree/matchering?style=social&color=white)](https://github.com/sergree/matchering/stargazers) | Automated Reference Mastering | Python library and containerized web app for automated reference-based mastering, matching frequency curve, RMS dynamics, peak amplitude, and stereo width. |
+| **[Resemble Enhance](https://github.com/resemble-ai/resemble-enhance)** | [![GitHub stars](https://img.shields.io/github/stars/resemble-ai/resemble-enhance?style=social&color=white)](https://github.com/resemble-ai/resemble-enhance/stargazers) | Speech Super-Resolution | Dual-stage AI speech enhancement framework featuring a denoising module and a latent diffusion acoustic model synthesizing high frequencies up to 44.1 kHz. |
+| **[Pure Data (Pd)](https://github.com/pure-data/pure-data)** | [![GitHub stars](https://img.shields.io/github/stars/pure-data/pure-data?style=social&color=white)](https://github.com/pure-data/pure-data/stargazers) | Visual Audio Synthesis | Open-source visual programming language for real-time audio signal processing, spatialization, modular synthesizer construction, and multimedia art. |
+| **[Levyra-deepsound](https://github.com/LUC4N3X/Levyra-deepsound)** | [![GitHub stars](https://img.shields.io/github/stars/LUC4N3X/Levyra-deepsound?style=social&color=white)](https://github.com/LUC4N3X/Levyra-deepsound/stargazers) | Audio Player & DSP Engine | Cross-platform GPLv3 audio player featuring 10-band EQ, AutoEQ headphone correction profiles, pitch/tempo DSP, ReplayGain, and zero telemetry. |
+| **[Resonance Audio](https://github.com/resonance-audio/resonance-audio)** | [![GitHub stars](https://img.shields.io/github/stars/resonance-audio/resonance-audio?style=social&color=white)](https://github.com/resonance-audio/resonance-audio/stargazers) | Cross-Platform Spatial Audio | Open-source multi-platform spatial audio SDK originally developed by Google, rendering 3D sound fields, Ambisonics, and simulated room acoustics at scale. |
+| **[libmysofa](https://github.com/hoene/libmysofa)** | [![GitHub stars](https://img.shields.io/github/stars/hoene/libmysofa?style=social&color=white)](https://github.com/hoene/libmysofa/stargazers) | HRTF Spatial Acoustics | C library for reading AES SOFA (Spatially Oriented Format for Acoustics) files, enabling personalized HRTF filtering for 3D binaural rendering. |
+| **[IEM Plug-in Suite](https://github.com/tu-studio/IEMPluginSuite)** | [![GitHub stars](https://img.shields.io/github/stars/tu-studio/IEMPluginSuite?style=social&color=white)](https://github.com/tu-studio/IEMPluginSuite/stargazers) | Ambisonic VST/LV2 Plugins | Open-source Higher-Order Ambisonics (HOA up to 7th order) suite developed at IEM Graz, providing 3D soundfield encoders, binaural decoders, and rotators. |
 
 ## How to Contribute
 
-
-
 1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
+2. Add/edit entries in `README.md` (follow existing tabular and categorized formats).
+3. Include: name, official link, pricing/free tier details (for SaaS) or GitHub repository link with star badges (for open source).
 4. Submit PR with a short explanation.
-
-
 
 Star the repo if you find it useful!
 
-
-
 ## Disclaimer
 
-
-
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Generative audio synthesis models (such as `Stable Audio Open` and `AudioCraft`) carry specific model weight licenses and training data terms; review licensing requirements before commercial distribution.
-
+- Generative audio synthesis models carry specific model weight licenses and training data terms; review licensing requirements before commercial distribution.
 - Real-time spatial audio rendering and neural speech enhancement pipelines require careful buffer sizing and sample-rate alignment (44.1 kHz / 48 kHz) to prevent audio dropouts.
-
-
 
 ---
 
-
-
 **Made for audio engineers, spatial sound designers, podcasters, game developers, and open-source AI researchers.**  
-
 Let's make AI audio synthesis and spatial sound engineering more open, creative, and accessible.
